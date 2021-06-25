@@ -1,0 +1,386 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.container{
+    width: 1250px;
+    margin: auto;
+}
+body{
+    font-family: Verdana, sans-serif;
+}
+.image-fluid{
+    max-width: 100%;
+}
+.header{
+width: 100%;
+float: left;
+}
+.part1{
+float: left;
+padding-top: 17px;
+padding-bottom: 17px;
+
+}
+.part1 img{
+    width: 220px;
+    height: 50px;
+}
+.part2 .social{
+margin-right: 25px;
+}
+.part2 .social ul li{
+display: inline-block;
+}
+.part2 .social ul li img{
+width: 50px;
+height: 50px;
+}
+.part2 .social ul li:hover{
+    color: springgreen;
+}
+.part2{
+display: inline-flex;
+float: right;
+padding-top: 20px;
+padding-bottom: 20px;
+}
+.part2 .menu{
+   float: right;
+   display: inline-flex;
+   margin-top: 15px;
+}
+.part2 .menu h3:hover{
+    color: springgreen;
+}
+.part2 .menu h3{
+    margin-right: 8px;
+    font-size: 20px;
+    font-weight: normal;
+    color: #aba9a9;
+}
+  
+
+.part2 .menu img{
+    width: 17px;
+    height: 15px;
+    margin-top: 4px;
+}
+
+/* banner */
+.banner{
+float: left;
+width: 100%;
+}
+.subbanner{
+text-align: center;
+padding-top: 210px;
+padding-bottom: 270px;
+background-color: #cccccc;
+
+}
+.banner .subbanner h1{
+padding-bottom: 42px;
+color: white;
+font-weight: normal;
+font-size: 40px;
+}
+.banner .subbanner p{
+color: white;
+}
+.banner .subbanner button{
+    background-color: #c7b199;
+    border: 1px solid #c7b199;
+
+}
+.button{
+padding-top: 27px;
+}
+.button1{
+padding: 20px 35px 20px 30px;
+}
+.button1 p{
+font-family: 14px;
+
+
+}
+.button2{
+display: inline-flex;
+padding: 20px 75px 20px 30px;
+margin-top: -2.5px;
+margin-bottom: 2px;
+}
+.button2 img{
+width: 14px;
+margin-right: 4px;
+}
+.button2 .playp{
+padding-left: 6px;
+font-size: 14px;
+color: black;
+}
+
+/* banner2 */
+.banner2{
+    float: left;
+    background-image: url("../images/background1.png");
+    width: 100%;
+   
+    background-position: right;
+}
+
+.banner2 h2{
+padding-top: 220px;
+/* padding-left: 85px; */
+color: black;
+font-size: 22px;
+font-weight: normal;
+}
+.banner2 .b2p{
+color: white;
+font-size: 20px;
+/* padding-left: 85px; */
+padding-top: 20px;
+padding-bottom: 24px;
+}
+.banner2 .b2b{
+    padding-bottom: 200px;
+}
+
+/* company */
+.company{
+float: left;
+text-align: center;
+width: 100%;
+margin: auto;
+padding-bottom: 80px;
+}
+.company .full-contain{
+width: 85%;
+margin: auto;
+margin-top: 50px;
+}
+.company .service{
+/* border: 1px solid red; */
+display: flex;
+width: 42%;
+float: left;
+margin: 2%;
+}
+.company h3{
+padding-top: 55px;
+padding-bottom: 25px;
+font-size: 25px;
+font-weight: normal;
+}
+.company .co-p{
+font-size: 17px;
+font-style: italic;
+color: palevioletred;
+}
+.company .service .contain{
+    /* border: 1px solid red; */
+
+}
+.company .service .contain h5{
+font-size: 18px;
+font-weight: normal;
+text-align: right;
+padding-bottom: 25px;
+}
+.company .service .contain p{
+font-size: 13px;
+text-align: left;
+color: palevioletred;
+}
+.company .service img{
+margin-left: 30px;
+width: 110px;
+}
+
+/* blog */
+.blog{
+float: left;
+background-image: url("../images/experiance.png");
+background-position: right;
+width: 100%;
+padding-bottom: 290px;
+}
+.blog .title{
+    text-align: center;
+    color: white;
+    padding-top: 125px;
+    padding-bottom: 85px;
+    font-size: 24px;
+    font-weight: lighter;
+}
+.blog .review{
+width: 100%;
+margin-left: 45px;
+}
+.blog .review .per1{
+width: 30%;
+float: left;
+color: white;
+/* border: 1px solid red; */
+}
+.blog .review .per1 img{
+    width: 175px;
+    margin-left: 95px;
+}
+.blog .review .per1 .per1p{
+text-align: center;
+padding-top: 45px;
+padding-bottom: 45px;
+font-size: 16px;
+
+}
+.blog .review .per1 .per1p2{
+text-align: center;
+font-weight: bold;
+font-style: italic;
+
+}
+
+/* recent-blog */
+
+.recent-blog{
+width: 100%;
+float: left;
+padding-bottom: 100px;
+ background-color: #f8f9fb;
+}
+.recent-blog .co-p{
+text-align: center;
+font-size: 15px;
+color: palevioletred;
+font-style: italic;
+padding-bottom: 40px;
+}
+.recent-blog h3{
+    padding-top: 70px;
+padding-bottom: 25px;
+font-size: 25px;
+font-weight: normal;
+text-align: center;
+
+}
+.blog-box{
+/* border: 1px solid red; */
+width: 74%;
+margin: auto;
+}
+.blog-box .box1{
+    /* border: 1px solid red; */
+    width: 32%;
+    float: left;
+    margin: 0.5%;
+}
+.blog-box .box1 img{
+    width: 350px;
+}
+.blog-box .box-wrap{
+/* border: 1px solid red; */
+display: flex;
+width: 100%;
+height: 250px;
+margin-top: -5px;
+}
+.box-wrap .leftbox{
+/* border: 1px solid red; */
+width: 30%;
+background-color: #ebe2d9;
+}
+.box-wrap .leftbox .date{
+    color: white;
+    padding: 5px;
+    text-align: center;
+    color: #c8b7a5;
+}
+.box-wrap .leftbox big{
+    font-size: 48px;
+    color: #b69874;
+}
+
+.box-wrap .rightbox{
+/* border: 1px solid red; */
+width: 70%;
+background-color: white;
+}
+.box-wrap .rightbox .right-p{
+font-weight: bold;
+padding-top: 40px;
+padding-left: 10px;
+/* padding: 40px 15px; */
+font-size: 20px;
+}
+.box-wrap .rightbox .right-p2{
+font-size: 12px;
+padding-left: 10px;
+padding-right: 10px;
+line-height: 20px;
+padding-top: 10px;
+color: #b5b5b5;
+}
+
+/* FOOTER */
+
+.footer{
+width: 100%;
+float: left;
+background-color: black;
+
+}
+.f{
+    width: 60%;
+    margin: auto;
+    padding-top: 110px;
+}
+.footer h1{
+   text-align: center;
+   color: white;
+}
+.subscribe{
+display: flex;
+text-align: center;
+margin-left: 110px;
+padding-top: 45px;
+}
+.subscribe .inbox{
+height: 50px;
+width: 400px;
+}
+.subscribe .inbox .inputbox{
+    height: 50px;
+    width: 400px;
+    border-radius: 2px 0px 0px 2px;
+    border: 1px solid rgba(128, 128, 128, 0.795);
+}
+.subscribe .btn{
+
+}
+.subscribe .btn .btn-sub{
+padding: 16px 30px;
+background-color: #b59877;
+border: 1px solid #b59877;
+color: white;
+border-radius: 0px 2px 2px 0px;
+}
+
+.footer .sub-footer{
+    display: flex;
+    margin-left: 55px;
+    padding-top: 50px;
+    color: white;
+    padding-bottom: 150px;
+}
+.footer .sub-footer a{
+    color: white;
+    text-decoration: none;
+}
+.footer .sub-footer .m2{
+    margin-right: 10px;
+}
+
+
